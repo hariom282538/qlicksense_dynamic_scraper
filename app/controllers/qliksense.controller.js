@@ -24,7 +24,7 @@ exports.Reporting = async function (req, res) {
         console.log(rdata);
         await page.screenshot({ path: "QLICK_SENSE.jpeg", type: "jpeg", quality: 100, omitBackground: true, fullPage: true });
         await browser.close();
-        res.send(res_data);
+        res.send(rdata);
     }
     catch (err) {
 
