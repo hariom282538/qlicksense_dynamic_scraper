@@ -1,0 +1,20 @@
+{
+  "name": "qlicksense_dynamic_scraper",
+  "version": "1.0.0",
+  "description": "QlickSense Dynamic Scraping and Screenshot capture API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Qlick Sense",
+    "Dynamic Scraper"
+  ],
+  "author": "Hariom",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "puppeteer": "^1.17.0"
+  }
+}
