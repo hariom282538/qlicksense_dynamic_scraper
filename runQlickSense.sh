@@ -9,4 +9,4 @@ CONTENT="<html> <head></head> <body>  <img src='cid:QLICK_SENSE.jpeg' />
 echo $CONTENT | tee /home/automation/qc.html
 MOUTPUT=$(mutt -e "my_hdr From:hariom.devops@gmail.com;set content_type=text/html" hariom.devops@gmail.com -s "My Dashboard | QlickSense | $(date) " -a /home/automation/QLICK_SENSE.jpeg </home/automation/qc.html)
 echo $MOUTPUT
-rm /home/automation/automation_darts/qc.html
+rm /home/automation/qc.html
